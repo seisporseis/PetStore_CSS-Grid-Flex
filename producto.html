@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Product page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo frontend store">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nombre de producto</h1>
+
+        <div class="camiseta">
+            <img src="img/1.jpg" alt="imagen de camiseta" class="camiseta__imagen">
+            <div class="camiseta__contenido">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, alias? Vitae fugiat delectus vero est eum nemo modi exercitationem voluptatum odit minus, minima deleniti et praesentium laboriosam, ea repudiandae cupiditate.</p>
+
+                <form action="" class="formulario">
+                    <div class="formulario__campos">
+                        <select name="" id="" class="formulario__campo">
+                            <option disabled selected value="">--Selecciona una talla</option>
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                        </select>
+                        <input type="number" class="formulario__campo" placeholder="Cantidad" min="1">
+                    </div>
+                    <input type="submit" class="formulario__submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+    
+</body>
+
+<footer class="footer">
+    <p class="footer__texto">No pares de aprender</p>
+    <p class="footer__texto">Dalia Mercado 2023</p>
+</footer>
+</html>
